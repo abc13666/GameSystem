@@ -63,34 +63,6 @@ GameSystem превращает обычные дела в RPG-приключе�
 
 ---
 
-## 🏗️ Архитектура проекта (планируемая)
-
-GameSystem/
-├── src/
-│ ├── main.py # Точка входа
-│ ├── models/
-│ │ ├── player.py # Класс игрока
-│ │ ├── quest.py # Классы квестов
-│ │ ├── rank.py # Система рангов
-│ │ └── achievement.py # Достижения
-│ ├── ui/
-│ │ ├── main_window.py # Главное окно
-│ │ ├── stats_screen.py # Экран статистики
-│ │ └── achievements_screen.py # Экран достижений
-│ └── utils/
-│ ├── data_manager.py # Работа с данными
-│ └── helpers.py # Вспомогательные функции
-├── data/
-│ └── save.json # Файл сохранения
-├── assets/
-│ └── icons/ # Иконки и изображения
-├── tests/ # Тесты
-├── README.md
-└── requirements.txt
-
-
----
-
 ## 📦 Установка и запуск
 
 ```bash
